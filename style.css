@@ -1,0 +1,401 @@
+/* For desktop and medium laptop screen style  */
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(./SubwayHunter-X36mj.ttf);
+    font-weight: bold;
+    font-stretch:ultra-expanded;
+}
+@keyframes myAnimation{
+    from{color: white;,font-size: 20px;}
+    to{color: red;,font-size: 35px;}
+}
+body{
+    margin: 0;
+}
+/* section1 styling */
+.part1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg,rgb(0,0,0.12),rgb(22 10 233 / 20%)),url(./top_full_stack.webp);
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* header styling */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+   
+}
+
+.dropdown-menu{
+    display: none;
+}
+.header nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 18px;
+    color: white;
+}
+.header .sub-head {
+    margin-right: 50px;
+
+}
+.header .sub-head a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+/* content-section1 styling */
+
+.content-section1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+   
+}
+.content-section1 .left-section{
+    color: white;
+    font-size: 15px;
+}
+.content-section1 .left-section p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+}
+.content-section1 .left-section span{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-section1 .left-section .span{
+    font-family: myFirstFont;
+    font-size: 28px;
+    color: red;
+}
+.content-section1 .left-section .para1{
+    font-size: 18px;
+}
+
+
+.content-section1 .right-section{
+    height: auto;
+    margin-left: 420px;
+    margin-bottom: 100px;
+}
+.content-section1 .right-section img{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    box-shadow: 1px 4px 0px 0px white;
+}
+/* content-section2 styling */
+
+.part2{
+   background-image: url(./part2.1.png);
+   background-position: center;
+   background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+.part2 .content-section2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 29px;
+}
+
+.part2  h1{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 49px;
+    font-weight: bold;
+    text-shadow: 3px 2px white;
+    color: navy;
+    padding: 96px;
+       
+}
+.content-section2 p{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+
+
+}
+.content-section2 .box1{
+    width: 325px;
+    height: 210px;
+    border: 2px solid black;
+    margin-left: 25px;
+    padding: 18px;
+    box-shadow: 2px 2px 7px 4px #a01515;
+}
+.content-section2 .box2{
+    width: 325px;
+    height: 210px;
+    border: 2px solid black;
+    margin-left: 25px;
+    padding: 18px;
+    box-shadow: 2px 2px 7px 4px #a01515;
+}
+.content-section2 .box3{
+    width: 325px;
+    height: 210px;
+    border: 2px solid black;
+    margin-left: 25px;
+    padding: 18px;
+    box-shadow: 2px 2px 7px 4px #a01515;
+}
+.content-section2  h3{
+    font-size: 23px;
+}
+.content-section3{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 44%;
+    margin-top: 70px;
+}
+.content-section3 h3{
+    font-size: 20px;
+    
+}
+.content-section3 h6{
+    font-size: 12px;
+   
+}
+.content-section3 a{
+    text-decoration: none;
+}
+button{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 30px;
+    background: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+.part3{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+.part3 h1{
+    font-size: 49px;
+    top: 90px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    color: navy;
+    margin: 0;
+}
+.part3 .content-section4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-top: -53px;
+}
+.part3 .content-section4 .square-1{
+    width: 250px;
+    height: 250px;
+}
+
+.part3 .content-section4 .square-1 .img1{
+    width: 58px;
+    height: 58px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.part3 .content-section4 .square-1 .img-1{
+    width: 125px;
+    height: 93px;
+    margin-left: 44px;
+    margin-top: 3px;
+}
+.part3 .content-section4 .square-1 h4{
+    margin-left: 35px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+.part3 .content-section4 .square-2{
+    width: 250px;
+    height: 250px;
+}
+.part3 .content-section4 .square-2 .img2{
+    width: 58px;
+    height: 58px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.part3 .content-section4 .square-2 .img-2{
+    width: 80px;
+    height: 85px;
+    margin-left: 66px;
+    margin-top: 6px;
+}
+.part3 .content-section4 .square-2 h4{
+    margin-left: 28px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.part3 .content-section4 .square-3{
+    width: 250px;
+    height: 250px;
+}
+.part3 .content-section4 .square-3 .img3{
+    width: 167px;
+    height: 113px;
+    margin-left: 20px;
+}
+.part3 .content-section4 .square-3 .img-3{
+    width: 120px;
+    height: 90px;
+    margin-left: 54px;
+    margin-top: -22px;
+}
+.part3 .content-section4 .square-3 h4{
+    margin-left: 73px;
+    margin-top: -1px;
+    font-size: 20px;
+}
+.part3 .content-section4 .square-4{
+    width: 250px;
+    height: 250px;
+}
+.part3 .content-section4 .square-4 .img4{
+    width: 167px;
+    height: 113px;
+    margin-left: 20px;
+}
+.part3 .content-section4 .square-4 .img-4{
+    width: 80px;
+    height: 80px;
+    margin-left: 75px;
+    margin-top: -28px;
+}
+.part3 .content-section4 .square-4 h4{
+    margin-top: 14px;
+    margin-left: 76px;
+    font-size: 20px;
+}
+.part3  .horizontal-line{
+    width: 100%;
+    height: 50px;
+    margin-top: -90px;
+}
+.part3 .horizontal-line img{
+    width: 100%;
+    height: 112px;
+}
+.part4{
+    width: 100%;
+    background: black;
+    color: white;
+    height: 100vh;
+}
+.part4 button{
+        border: 1px solid white;
+        border-radius: 8px;
+        padding: 8px;
+        float: right;
+        margin-right: 35px;
+        margin-top: 30px;
+        background: black;
+        color: white;
+        width: 100px;
+        height: 40px;
+    
+}
+.part4 .about-container{
+    border: 1px solid black;
+    margin: 15%;
+    padding: 100px;
+
+} 
+.part4 .about-container .img-container{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 22px;
+}
+.part4 .about-container .img-container img{
+    width: 210px;
+    height: 230px;
+}
+.part4 .about-container .cont-abt{
+    margin-left: 250px;
+
+}
+.part4 .about-container .cont-abt h1{
+    margin: 0;
+}
+.part4 .about-container .cont-abt h2{
+    margin: 0;
+    animation: myAnimation 5s infinite ease-in-out;
+}
+.part4 .about-container .cont-abt .personal-info-box{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -33px;
+}
+.part4 .about-container .cont-abt .personal-info-box .birth-place{
+    width: 150px;
+    height: 120px;
+    padding: 10px;
+}
+.part4 .about-container .cont-abt .personal-info-box .residence{
+    width: 150px;
+    height: 120px;
+    padding: 10px;
+}
+
+.part4 .about-container .cont-abt .personal-info-box .hobbies{
+    width: 150px;
+    height: 120px;
+    padding: 10px;
+}
+.part4 .about-container .cont-abt .personal-info-box1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: -33px;
+
+}
+.part4 .about-container .cont-abt .personal-info-box1 .born{
+    width: 150px;
+    height: 120px;
+    padding: 10px;
+
+}
+.part4 .about-container .cont-abt .personal-info-box1 .education{
+    width: 150px;
+    height: 120px;
+    padding: 10px;
+
+}
+.part4 .about-container .cont-abt .personal-info-box1 .email{
+    width: 150px;
+    height: 120px;
+    padding: 10px;
+
+}
+
+
